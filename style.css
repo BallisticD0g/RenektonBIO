@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(#1b1612, #1b1612, #5e3613, #cd8742); 
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-image: url(Images/buried-sun-disc.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-height: 93vh;
+    height: 93vh;
+    width: 93vw;
+    margin: 3.5em 2em;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.3em solid #e4892d;
+}
+
+
+header h1,
+header h2 {
+    color: #e4892d;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 0.2rem;
+    background-color: #ffffff92;
+    padding: 0.5em;
+    border-radius: 5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+section {
+    background-image: linear-gradient(#e4892d, #1b1612);
+    border-radius: 5rem;
+    padding: 0.3rem;
+    margin: 0em 32em;
+}
+
+section > article {
+    background-image: url(Images/ShurimaCity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 48% 0%;
+    padding-bottom: 5em;
+    border-radius: 5rem;
+}
+
+
+section div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10em;
+}
+
+section div img:first-of-type {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 5rem;
+    margin-top: 10em;
+    
+}
+section div img:last-of-type {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 5rem;
+    margin-top: 10em;
+    
+}
+
+section p {
+    color: #e4892d;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 3em 2em;
+    margin: 0em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'QucikSand', sans-serif;
+    background-color: #0c0a0a92;
+}
+
+section p:after {
+    content: " ";
+    background-color: #e4892d;
+    padding: 0.1em 7em;
+    margin-top: 2.5em;
+}
+
+section p:first-of-type {
+    border-radius: 5rem 5rem 0 0;
+}
+
+section p:last-of-type {
+    border-radius: 0 0 5rem 5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    color: #e4892d;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #0c0a0a92;
+    padding: 0.5em;
+    border-radius: 5rem;
+    font-family: 'QucikSand', sans-serif;
+}
+
+@font-face {
+    font-family: 'QucikSand';
+    src: url(Fonts/Quicksand-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url(Fonts/Righteous-Regular.ttf) format('truetype');
+}
