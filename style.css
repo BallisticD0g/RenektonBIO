@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-image: url(Images/buried-sun-disc.WebP) loading='lazy';
+    background-image: url(Images/buried-sun-disc.WebP);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center; 
