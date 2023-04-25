@@ -65,7 +65,7 @@ section {
 }
 
 section > article {
-    background-image: url(Images/ShurimaCity.WebP) loading='lazy';
+    background-image: url(Images/ShurimaCity.WebP);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 48% 0%;
