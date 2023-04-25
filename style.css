@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-image: url(Images/buried-sun-disc.webp);
+    background-image: url(Images/buried-sun-disc.WebP);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center; 
@@ -65,7 +65,7 @@ section {
 }
 
 section > article {
-    background-image: url(Images/ShurimaCity.webp);
+    background-image: url(Images/ShurimaCity.WebP);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 48% 0%;
