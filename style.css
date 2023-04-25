@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-image: url(Images/buried-sun-disc.WebP);
+    background-image: url(https://ik.imagekit.io/po58pqsvl/Images/buried-sun-disc.webp?updatedAt=1682435762101);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center; 
@@ -65,7 +65,7 @@ section {
 }
 
 section > article {
-    background-image: url(Images/ShurimaCity.WebP);
+    background-image: url(https://ik.imagekit.io/po58pqsvl/Images/ShurimaCity.webp?updatedAt=1682435761862);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 48% 0%;
