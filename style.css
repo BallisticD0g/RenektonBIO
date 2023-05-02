@@ -16,16 +16,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 header {
-    background-image: url(https://ik.imagekit.io/po58pqsvl/Images/buried-sun-disc.webp?updatedAt=1682435762101);
+    background-image: url(https://ik.imagekit.io/po58pqsvl/Images/LoR_2RenSplash.webp?updatedAt=1682706736172);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center; 
     height: 90vh;
     width: 90vw;
-    margin: 3.5em 2em;
+    margin: 4em 2em;
     border-radius: 5rem;
     display: flex;
     flex-direction: column;
@@ -57,10 +62,10 @@ h2 {
 }
 
 section {
-    background-image: linear-gradient(#e4892d, #1b1612);
+    background-color: #e4892d;
     border-radius: 5rem;
     padding: 0.3rem;
-    margin: 0em 32em;
+    margin: 4em 32em;
 }
 
 section > article {
@@ -76,8 +81,7 @@ section > article {
     align-items: center;
 }
 
-
-section div{
+section div {
     margin-bottom: 10em;
     width: 80vw;
     display: flex;
@@ -85,12 +89,12 @@ section div{
     justify-content: space-evenly;
 }
 
-section div img:first-of-type,
-section div img:last-of-type  {
+section div img {
     height: 30vh;
     width: auto;
     border-radius: 5rem;
     margin-top: 10em;
+    border: #e4892d 4px solid;
 }
 
 section p {
@@ -137,6 +141,51 @@ footer p {
     border-radius: 5rem;
     font-family: 'QucikSand', sans-serif;
 }
+
+
+/* Load Page animation Start*/
+
+.loadImg {
+    z-index: 1;
+    background-image: url('https://ik.imagekit.io/po58pqsvl/Images/Shurima_Load__1_.webp?updatedAt=1683043986347');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.preload {
+    animation: fadeInIntro 7s ease-out 1;
+    opacity: 0;
+}
+
+.loadImg > h1 {
+    width: 20rem;
+    color: #e4892d;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 0.2rem;
+    background-color: #ffffff92;
+    padding: 0.5em;
+    border-radius: 5rem;
+    margin: 0em 2em;
+}
+
+@keyframes fadeInIntro {
+    0%{
+        opacity: 100;
+     }
+    100%{
+       opacity: 0;  
+    }
+}
+
+/* Load Page animation end*/
 
 
 
